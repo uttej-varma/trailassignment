@@ -1,0 +1,139 @@
+.container{
+    position:relative; 
+        background: url('./photos/Group\ 30.svg') no-repeat;
+        background-size:contain;
+        
+}
+body{
+    background-color:#674BB1;
+
+}
+header{
+    position:relative;
+    top:28px;
+    left:36px;
+    border:1px solid #674BB1;
+    width:86.38px;
+    height:29.33px;
+
+}
+.bigtable{
+      position:relative;
+      border:1px solid white;
+      width:277px;
+      height:160px;
+      top:78px;
+      left:36px;
+      border-top:19px solid black;
+      border-radius:10px;
+      background-color: white;
+}
+.smalltable{
+    position:absolute;
+    border:1px solid silver;
+    width:94px;
+    height:139px;
+    top:70px;
+    left:203px;
+    border-top:17px solid black;
+    border-radius:10px;
+    background-color: white;
+}
+.b-p1{
+    position:absolute;
+    border:1px solid #674BB1;
+    width:242px;
+    height:61px;
+    top:378px;
+    left:59px;
+}
+.b-p2{
+    position:absolute;
+    border:1px solid #674BB1;
+    width:262px;
+    height:131px;
+    top:450px;
+    left:49px;
+}
+button{
+    width:137px;
+    height:39px;
+    position:absolute;
+    top:616px;
+    left:112px;
+    border-radius: 30%;
+    cursor:pointer;
+}
+.b-p1 > h2{
+    font-size: 1.4em;
+    text-align: center;
+    color:white;
+    font-weight:bold;
+    padding-top:5px;
+}
+.b-p2 > p{
+    text-align:center;
+    color:white;
+    font-size:0.9em;
+    line-height: 200%;
+}
+.button:hover {
+    background-color: #3e8e41;
+}
+
+.f-img{
+    position:absolute;
+    top:705px;
+    left:131px;
+}
+.f-img > img{
+    width:84px;
+    height:28px;
+}
+.c-1{
+    position:absolute;
+    top:21px;
+    left:21px;
+    width:27px;
+    height:29px;
+    border-radius:50%;
+    border:1px solid white;
+    background-color: #FEB078;
+
+
+}
+.c-3{
+    position:absolute;
+    top:101px;
+    left:21px;
+    width:27px;
+    height:29px;
+    border-radius:50%;
+    border:1px solid white;
+    background-color:#EC53D0;
+
+
+}
+.c-2{
+    position:absolute;
+    top:60px;
+    left:21px;
+    width:27px;
+    height:29px;
+    border-radius:50%;
+    border:1px solid white;
+    background-color:#02BEFA;
+
+
+}
+
+.smalltable > div{
+    border:1px solid white;
+    border-radius:50%;
+    width:10px;
+    height:10px;
+    margin-top:5px;
+    background-color:#B44DF2;
+    margin-left:5px;
+
+}
